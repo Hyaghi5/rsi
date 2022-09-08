@@ -1,0 +1,194 @@
+.page-content {
+    min-height: 600px;
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+#sortable img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    max-height: 150px;
+}
+
+/*
+#sortable {list-style-type: none; margin: 0; padding: 0;}
+#sortable li {float: right; margin: 2px; border: 1px solid #e3e3e3; background: #f7f7f7}
+#sortable .delete-link{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: rgba(100,0,0,0.8);
+    color: #fff;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+}*/
+.relative {
+    position: relative;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.loading-sm {
+    display: none;
+    margin: 0 3px;
+    padding-left: 20px;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    background: transparent url(loading.gif) no-repeat left 3px;
+}
+
+.grid-view {
+    font-size: 13px;
+}
+
+.grid-view .table th > .sort-link {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+}
+
+.grid-view .table th > .sort-link:hover {
+    text-decoration: none;
+}
+
+.grid-view .table th > .sort-link .caret {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 4px;
+    display: none;
+    position: absolute;
+    right: 5px;
+}
+
+.grid-view .table th > .sort-link.asc .caret {
+    border-bottom-color: #333;
+    display: block;
+    top: 4px;
+}
+
+.grid-view .table th > .sort-link.desc .caret {
+    border-top-color: #333;
+    display: block;
+    top: 8px;
+}
+
+.grid-view .table .filters > td input[type="text"],
+.grid-view .table .filters > td select {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.grid-view .table tr.selected td {
+    background: #eee;
+}
+
+.grid-view .table td {
+    vertical-align: middle;
+}
+
+.grid-view .table .checkbox-column {
+    width: 15px;
+}
+
+.grid-view .table .number-column {
+    text-align: right;
+}
+
+.grid-view .table .button-column {
+    text-align: right;
+    min-width: 50px;
+}
+
+.grid-view .summary {
+    color: #999999;
+    font-size: 12px;
+    padding: 6px 0;
+    text-align: right;
+}
+
+.grid-view .empty {
+    font-style: italic;
+}
+
+.grid-view.grid-view-loading {
+    background: url(loading.gif) no-repeat 100% 10px;
+}
+
+.grid-view.grid-view-loading .table {
+    opacity: 0.5;
+}
+
+.grid-view.grid-view-loading .table th > .sort-link .caret {
+    display: none;
+}
+
+.detail-view .null {
+    color: #ffc0cb;
+}
+
+.detail-view th {
+    text-align: right;
+    width: 160px;
+}
+
+span.required {
+    color: #b94a48;
+    font-weight: bold;
+}
+
+.grid-view .pagination {
+    margin: 0;
+}
+
+.grid-view th a {
+    background: url(../../images/admin/updown.png) right center no-repeat;
+    padding-right: 10px;
+}
+
+.grid-view th a.asc {
+    background: url(../../images/admin/up.gif) right center no-repeat;
+}
+
+.grid-view th a.desc {
+    background: url(../../images/admin/down.gif) right center no-repeat;
+}
+
+.cke_reset_all,
+.cke_reset_all *,
+.cke_panel,
+.cke_panel *,
+.cke_chrome,
+.cke_chrome * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+#cell-ip_address{
+    line-height: 11px;
+    font-size:11px;
+}
+#cell-ip_address *{
+    float: left;
+}
+#cell-ip_address img{
+    margin-right: 5px;
+}

@@ -1,0 +1,60 @@
+.foo {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.blue {
+  background: #13b4ff;
+}	
+.wine {
+  background: #ae163e;
+}
+
+.black {
+  background: #000000;
+}
+.gray {
+  background: #666666;
+}
+.white {
+  background: #ffffff;
+}
+.yellow {
+  background: #FFFF00;
+}
+.red {
+  background: #FF0000;
+}
+.brown {
+background: #996633;
+}
+.cyan {
+background: #b3daff;
+}
+.white-blue {
+background: #6699ff;
+}
+.white-brown {
+background: #dfbe9f;
+}
+.skin {
+background: #f3e5d8;
+}
+.purple {
+background: #ff3399;
+}
+.white-purple {
+background: #ffcce6;
+}
+.pink {
+background: #ff99ff;
+}
+.black-purple {
+background: #cc0099;
+}
+.dark-purple {
+background: #730099;
+}

@@ -1,0 +1,265 @@
+@keyframes zoomAnimation{
+  0%{
+    transform: scale(0); 
+   }  
+   100%{
+    transform: scale(1); 
+   }  
+}
+@-webkit-keyframes zoomAnimation{
+  0%{
+    transform: scale(0); 
+   }  
+   100%{
+    transform: scale(1); 
+   }  
+} 
+
+
+.service6 .img-container .row, 
+.service4 .img-container .row, 
+.service8 .img-container .row {
+    margin: 0px;
+}
+.row.service5 {
+    margin-bottom: 0px;
+}
+.service5 .search-container {
+    width: 100%;
+    padding: 0px;
+    height: 315px;
+    margin: 6vw 0 00; 
+}
+
+header .navbar-nav .dropdown-menu li a {
+    color:  black;
+    font-size:  1.2rem;
+    padding: 8px;
+    font-family:  FirstFont;
+    width: 100% !important;
+    display:  block;
+}
+
+header .navbar-nav .dropdown-menu li {
+    padding:  8px 0px;
+    list-style: none;
+    border-bottom: 3px solid #ffffff;
+}
+
+header .navbar-nav .dropdown-menu ul {
+    padding-left: 0px;
+}
+
+header .navbar-nav .dropdown-menu li:hover {
+    background: #080808;
+    border-bottom: 3px solid #cd0808;
+    cursor:  pointer;
+}
+
+header .navbar-nav .dropdown-menu li:hover a {
+    color:  #ffff;
+    text-decoration: none;
+}
+.float-btn {
+    position: fixed;
+    z-index: 1000;
+    right: 10px;
+    float: right;
+    direction: rtl;
+    top: 50vh;
+}
+.float-btn img.img-responsive.logo-chat-img {
+    width: 23px;
+    display: inline;
+}
+.popover-content a, .popover-content {
+    color: #cc0000;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: FirstFont;
+}
+.float-btn .popover.left {
+    text-align:  left;
+    margin-left: -10px;
+    width: 317px;
+    left: -285px !important;
+    -webkit-animation: zoomAnimation 0.5s ease-in-out;
+    direction: ltr;
+    animation: zoomAnimation 0.5s ease-in-out;
+    top: -29px !important;
+}
+.gallery .row.gallery-title {
+    background-color: #ffffff; 
+    padding:  10px;
+    text-align:  center;
+    font-size:  1.5rem;
+    font-family:  FirstFont;
+    color:  gray;
+}
+
+.gallery .row.gallery-title a {
+    font-size: 1.5rem;
+    font-family: FirstFont;
+    color: rgb(47, 47, 47);
+}
+.gallery .gallery-card-container {
+    display:  flex;
+    align-items:  center;
+    -o-flex-wrap:  wrap;
+    -moz-flex-wrap:  wrap;
+    flex-wrap:  wrap;
+}
+.gallery .gallery-card-container .gallery-card-container-content {
+    box-shadow: 1px 1px 9px #d8d8d8;
+    padding: 0;
+    margin: 1vw 15px;
+    width: calc(25% - 30px);
+}
+.gallery-video.gallery .gallery-card-container .gallery-card-container-content {
+    box-shadow: 1px 1px 9px #d8d8d8;
+    padding: 0;
+    margin: 1vw 15px;
+    width: calc(50% - 30px);
+}
+
+
+.gallery{
+    min-height: 90vh;
+    padding-top: 125px;
+}
+
+ 
+.float-btn .icon-link{
+    background: #080808;
+    background: linear-gradient( #0000009c, #cc0000);
+    height: auto;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    height: 47px;
+    cursor:  pointer;
+    width: 47px;
+    box-shadow: 1px 1px 9px #484848;
+}
+
+.clients .clients-company .row {
+    margin: 76px 8.333%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.service .row.service1,
+.service .row.service2,
+.service .row.service3,
+.service .row.service4,
+.service .row.service5,
+.service .row.service6,
+.service .row.service7,
+.service .row.service8,
+.service .row.service9 {
+    height: auto;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    margin-top: 104px;
+    align-items: center;
+    flex-flow: wrap; 
+}
+
+.service .row.service5{
+    margin-bottom: 0px;
+}
+.gallery h2.head-line.text-center{
+    margin-top: 0px;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #00314e;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #00314e;
+    border-color: #00314e;
+}
+@media (max-width:991px){
+ .gallery .gallery-card-container .gallery-card-container-content {
+    width: calc(33.333333% - 30px);
+} 
+.gallery-video.gallery .gallery-card-container .gallery-card-container-content {
+    width: calc(50% - 30px);
+}
+}
+@media (max-width:767px){
+    section#Services {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+.service .row.service1, .service .row.service2, .service .row.service3, .service .row.service4, .service .row.service5, .service .row.service6, .service .row.service7, .service .row.service8, .service .row.service9 {
+    height: auto;
+    display: flex;
+    display: -webkit-flex;
+    margin-top: 30px;
+    align-items: center;
+    flex-flow: wrap;
+    margin-bottom: 30px;
+}
+.who-we-are h2.head-text.text-center,
+ section.clients h2.head-line.text-center,
+  .gallery h2.head-line.text-center,
+   .team h2.head-line.text-center {
+    margin: 30px auto 20px;
+}
+ .gallery .gallery-card-container {
+    display:  flex;
+     flex-direction: column;
+}
+.clients .clients-company .row {
+    margin: 30px  ;
+    }
+.gallery .gallery-card-container .gallery-card-container-content {
+    width: 50%;
+}
+.gallery-video.gallery .gallery-card-container .gallery-card-container-content {
+    width: calc(100% - 30px);
+}
+.home-iframe{
+
+}
+    .gallery .gallary-card {
+        width: 100%;
+        display: block;
+        padding: 0px;
+        margin: 10px auto;
+    }
+}
+@media (max-width: 500px){
+    .gallery .gallery-card-container .gallery-card-container-content {
+    width: 58%;
+}
+.gallery-video.gallery .gallery-card-container .gallery-card-container-content {
+    width: calc(100% - 30px);
+}
+.team .team-membere-image-container {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+}
+@media (max-width: 360px){
+    .gallery .gallery-card-container .gallery-card-container-content {
+    width: 80%;
+}
+.gallery-video.gallery .gallery-card-container .gallery-card-container-content {
+    width: calc(100% - 30px);
+}
+}
